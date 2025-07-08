@@ -1,0 +1,22 @@
+# Ignore OS and editor files
+.DS_Store
+*.swp
+*.swo
+
+# Ignore output and generated files
+output.pdf
+*.log
+
+# Ignore dependency and environment files
+vendor/
+node_modules/
+.env
+
+# Ignore IDE/project files
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore uploads and temp files
+*.tmp
+*.bak

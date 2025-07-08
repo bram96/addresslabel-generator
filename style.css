@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 25px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    max-width: 400px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-input {
+    width: 100%;
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Style for file upload input */
+.file-upload {
+    display: block;
+    margin-bottom: 15px;
+    padding: 6px 0;
+}
+
+/* Style for the submit button and align right */
+.form-container button[type="submit"] {
+    display: inline-block;
+    background-color: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 22px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: 10px;
+    float: right;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.form-container button[type="submit"]:hover {
+    background-color: #125ea2;
+}
+
+/* Clear float for container */
+.form-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.file-upload input[type="file"] {
+    display: block;
+    width: 100%;
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
