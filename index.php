@@ -56,6 +56,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['csv_file'])) {
                 <select id="preset" class="form-input">
                     <option value="">-- Kies een voorinstelling --</option>
                     <option value="hema525">Hema 525</option>
+                    <option value="niceday">Niceday 63.5x38.1</option>
                 </select>
             </div>
             <div class="file-upload">
