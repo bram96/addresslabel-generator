@@ -123,6 +123,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['csv_file'])) {
                 marge_links: 7,
                 breedte: 63.5,
                 hoogte: 38.1
+            },
+            niceday: {
+                naam: 'Niceday 63.5x38.1',
+                hor_aantal: 3,
+                ver_aantal: 7,
+                hor_afstand: 3,
+                ver_afstand: 0,
+                marge_boven: 15.5,
+                marge_links: 8,
+                breedte: 63.5,
+                hoogte: 38.1
             }
         };
 
